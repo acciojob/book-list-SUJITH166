@@ -21,6 +21,7 @@ const isbn=isbnInput.value.trim();
     thirdCell.textContent = `${isbn}`; 
 	const removeaction=document.createElement('td')
 	const remove=document.createElement("button");
+	remove.classList.add('delete');
 	remove.textContent='Remove';
 
 	remove.addEventListener('click',function(){
