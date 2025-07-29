@@ -1,1 +1,13 @@
 /*  your css code here. If applicable */
+h4{
+	text-align:center;
+}
+input{
+padding:3px;	
+margin-bottom:6px;
+	width:90%;
+}
+table{
+	width:95%;
+	margin-top:20px;
+}
